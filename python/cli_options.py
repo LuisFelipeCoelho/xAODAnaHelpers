@@ -242,6 +242,12 @@ drivers_prun.update({
         "required": False,
         "default": None,
     },
+    "optGridPrunShipAdditionalFilesOrDirs": {
+        "metavar": "",
+        "type": str,
+        "required": False,
+        "default": None,
+    },
     "optGridMemory": {"metavar": "", "type": int, "required": False, "default": None},
     "optGridMaxCpuCount": {
         "metavar": "",
